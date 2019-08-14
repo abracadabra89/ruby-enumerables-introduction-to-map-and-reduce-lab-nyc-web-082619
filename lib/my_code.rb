@@ -1,3 +1,4 @@
 # My Code here....
 def map_to_negativize(array)
-  { |x| x + "!" }
+  array.map{ |x| x + "-" }
+end
