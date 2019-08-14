@@ -9,7 +9,7 @@ def map_to_negativize(array)
   return new
 end
 
-map_to_no_change(source_array)
+def map_to_no_change(source_array)
 new = []
   i = 0
   while i < source_array.length do
@@ -19,7 +19,7 @@ new = []
   return new
 end
 
-map_to_double(source_array)
+def map_to_double(source_array)
 new = []
   i = 0
   while i < source_array.length do
@@ -30,7 +30,7 @@ new = []
 end
 
  
- map_to_square(source_array)
+ def map_to_square(source_array)
  new = []
   i = 0
   while i < source_array.length do
@@ -41,7 +41,7 @@ end
 end
 
  
- reduce_to_total(source_array, starting_point)
+ def reduce_to_total(source_array, starting_point)
  result = source_array.reduce {|result, starting_point| result += starting_point }
  end
  return result
@@ -49,11 +49,11 @@ end
  
  
  
- reduce_to_all_true(source_array)
+ def reduce_to_all_true(source_array)
  
  
  
- reduce_to_any_true(source_array)
+ def reduce_to_any_true(source_array)
  
  
 
