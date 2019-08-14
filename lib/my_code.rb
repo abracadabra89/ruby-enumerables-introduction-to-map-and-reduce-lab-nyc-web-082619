@@ -19,4 +19,6 @@ new = []
   return new
 end
 
+map_to_double(source_array)
+
 
