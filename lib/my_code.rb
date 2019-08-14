@@ -38,5 +38,7 @@ new = []
   end
   return new
 end
-
+ 
+ map_to_square(source_array)
+ source_array.map {|number| number * number}
 
