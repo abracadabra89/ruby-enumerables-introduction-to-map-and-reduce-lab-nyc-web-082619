@@ -43,6 +43,9 @@ end
  source_array.map {|number| number * number}
  end
  
+ 
+ 
+ 
  reduce_to_total(source_array, starting_point)
  
  
