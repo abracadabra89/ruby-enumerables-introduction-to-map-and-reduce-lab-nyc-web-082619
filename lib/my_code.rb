@@ -47,7 +47,7 @@ end
  
  
  reduce_to_total(source_array, starting_point)
- result = source_array.reduce_to_total(0) {|result, starting_poin| result += starting_point }
+ result = source_array.reduce {|result, starting_poin| result += starting_point }
  end
  
  
