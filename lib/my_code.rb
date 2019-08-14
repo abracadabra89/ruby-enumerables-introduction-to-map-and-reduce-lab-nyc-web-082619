@@ -54,7 +54,7 @@ end
  
  
  
- 
+ reduce_to_any_true(source_array)
  
  
 
