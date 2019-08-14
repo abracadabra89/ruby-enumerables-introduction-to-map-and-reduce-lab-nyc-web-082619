@@ -31,11 +31,15 @@ end
 
  
  map_to_square(source_array)
- source_array.map {|number| number * number}
- end
- 
- 
- 
+ new = []
+  i = 0
+  while i < source_array.length do
+    new.push( source_array[i] * i ) 
+    i += 1
+  end
+  return new
+end
+
  
  reduce_to_total(source_array, starting_point)
  result = source_array.reduce {|result, starting_point| result += starting_point }
