@@ -50,10 +50,6 @@ end
  
  
  reduce_to_all_true(source_array)
- source_array.reduce { |beTrue| if beTrue == true; p true; else p false end}
-end
- source_array.map{|e| !!e}
- if source_array == [1, "2", nil, true, false]
  
  
  
