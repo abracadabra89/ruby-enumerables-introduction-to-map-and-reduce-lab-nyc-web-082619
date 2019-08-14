@@ -29,15 +29,6 @@ new = []
   return new
 end
 
-map_to_square(source_array)
-new = []
-  i = 0
-  while i < source_array.length do
-    new.push( source_array[i] * 2 ) 
-    i += 1
-  end
-  return new
-end
  
  map_to_square(source_array)
  source_array.map {|number| number * number}
@@ -47,7 +38,9 @@ end
  
  
  reduce_to_total(source_array, starting_point)
- result = source_array.reduce {|result, starting_poin| result += starting_point }
+ result = source_array.reduce {|result, starting_point| result += starting_point }
+ end
+ return result
  end
  
  
